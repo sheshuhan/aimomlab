@@ -1,0 +1,28 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&family=M+PLUS+Rounded+1c:wght@400;700&display=swap');
+
+@theme {
+  --font-sans: "M PLUS Rounded 1c", "Varela Round", ui-sans-serif, system-ui, sans-serif;
+  --color-soft-pink: #FFD1DC;
+  --color-soft-blue: #D1E8FF;
+  --color-soft-green: #D1F2D1;
+  --color-cream: #FFF9F5;
+  --color-warm-gray: #7D7471;
+  --color-accent-pink: #F8BBD0;
+  --color-accent-blue: #BBDDFF;
+  --color-accent-green: #BBEEBB;
+}
+
+body {
+  background-color: #FFFFFF;
+  color: var(--color-warm-gray);
+  font-family: var(--font-sans);
+}
+
+.infographic-shadow {
+  box-shadow: 0 10px 30px -5px rgba(255, 209, 220, 0.3);
+}
+
+.game-box {
+  background-color: #FFFFFF;
+}
