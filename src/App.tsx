@@ -300,7 +300,7 @@ export default function App() {
   const Logo = ({ size = 24, className = "", rounded = true }: { size?: number, className?: string, rounded?: boolean }) => (
     <div className={`flex items-center justify-center bg-white shadow-sm border border-warm-gray/10 overflow-hidden ${rounded ? 'rounded-full' : 'rounded-2xl'} ${className}`} style={{ width: size * 1.5, height: size * 1.5 }}>
       <img 
-        src="https://storage.googleapis.com/static-assets-public/ais-媽媽研究室logo.png" 
+        src="images/logo.png" 
         alt="AI媽媽研究室 Logo" 
         className="w-full h-full object-contain p-1"
         referrerPolicy="no-referrer"
