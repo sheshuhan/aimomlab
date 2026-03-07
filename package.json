@@ -1,6 +1,7 @@
 {
   "name": "react-example",
   "private": true,
+  "homepage":"https://sheshuhan.github.io/aimomlab",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
